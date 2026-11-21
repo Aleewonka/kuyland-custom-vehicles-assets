@@ -17,6 +17,116 @@
         "brakeDeceleration": 9.8
       },
       "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20002,
+      "baseModelId": 587,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20002_350z.dff",
+      "txdPath": "vehicles/20002_350z.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20003,
+      "baseModelId": 496,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20003_728_toyota.dff",
+      "txdPath": "vehicles/20003_728_toyota.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20004,
+      "baseModelId": 603,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20004_gallardo.dff",
+      "txdPath": "vehicles/20004_gallardo.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20005,
+      "baseModelId": 402,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20005_hellcat.dff",
+      "txdPath": "vehicles/20005_hellcat.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20006,
+      "baseModelId": 400,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20006_jeep_cheeroke.dff",
+      "txdPath": "vehicles/20006_jeep_cheeroke.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20007,
+      "baseModelId": 500,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20007_jip.dff",
+      "txdPath": "vehicles/20007_jip.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20008,
+      "baseModelId": 411,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20008_nissan_r33.dff",
+      "txdPath": "vehicles/20008_nissan_r33.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20009,
+      "baseModelId": 506,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20009_nsx_1991.dff",
+      "txdPath": "vehicles/20009_nsx_1991.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20010,
+      "baseModelId": 602,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20010_rx7.dff",
+      "txdPath": "vehicles/20010_rx7.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20011,
+      "baseModelId": 550,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20011_subaru.dff",
+      "txdPath": "vehicles/20011_subaru.txd",
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20012,
+      "baseModelId": 462,
+      "vehicleClass": "bike",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20012_vespa_kuyfood.dff",
+      "txdPath": "vehicles/20012_vespa_kuyfood.txd",
+      "handling": null,
+      "bikeHandling": null
     }
   ]
 }

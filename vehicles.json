@@ -25,6 +25,204 @@
         "brakeDeceleration": 9.8
       },
       "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20002,
+      "baseModelId": 587,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20002_350z.dff",
+        "sha256": "c3ac017fd70ef034f5437418fa80ea28420a6804a2b5cf33cb74c7ff276db1a1",
+        "size": 4104192
+      },
+      "txd": {
+        "path": "vehicles/20002_350z.txd",
+        "sha256": "17700ec2b99753ebb6e5d7371d6c4aee64969f94bef3bdd54494af5db653fae0",
+        "size": 3062456
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20003,
+      "baseModelId": 496,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20003_728_toyota.dff",
+        "sha256": "51f18711e32f14d36f7b068aa7e0a9500441e57a5653c2ade7b9c9747cc3c9b5",
+        "size": 911360
+      },
+      "txd": {
+        "path": "vehicles/20003_728_toyota.txd",
+        "sha256": "f1647f71630d435c56b932f90f8f00693fd942cdda290d597a62b0d6c6b4b4df",
+        "size": 429608
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20004,
+      "baseModelId": 603,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20004_gallardo.dff",
+        "sha256": "577b5455db85b56ef42d14bd99939a94c9f712d8f8ece1fbf2723bf8a973bcd6",
+        "size": 12144640
+      },
+      "txd": {
+        "path": "vehicles/20004_gallardo.txd",
+        "sha256": "26b99a3eca4f5f8805d3eb00cace66170cbf4370b31d7b138c9ee2556df52166",
+        "size": 4119848
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20005,
+      "baseModelId": 402,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20005_hellcat.dff",
+        "sha256": "b76833b5f041bdde5fe35d27eb9abadfcddb898b6194f9a8b5caf81e4b641628",
+        "size": 13122784
+      },
+      "txd": {
+        "path": "vehicles/20005_hellcat.txd",
+        "sha256": "881fae22d191917d1a189be8bcbf1df0fd7579e6fa7fe0d0167ae4f246860837",
+        "size": 29256488
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20006,
+      "baseModelId": 400,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20006_jeep_cheeroke.dff",
+        "sha256": "76aeb3d5fed6b2fe422b45b558c235ee87b0c7c7623a7a0fe198e1d745879052",
+        "size": 16926720
+      },
+      "txd": {
+        "path": "vehicles/20006_jeep_cheeroke.txd",
+        "sha256": "6deff73da2c6f35655ade5ea81b97ad863796cb7bfcbbbc8e3245bf404c82cc3",
+        "size": 2661240
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20007,
+      "baseModelId": 500,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20007_jip.dff",
+        "sha256": "f9eb4ff26a229712ba3d79550abe1b18d51eee415697f13471bb8f109ab9e129",
+        "size": 520192
+      },
+      "txd": {
+        "path": "vehicles/20007_jip.txd",
+        "sha256": "af6f2402198afd48855697f46a688cf9f0f52912a2e0681c73b8dad5f7979ba9",
+        "size": 144808
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20008,
+      "baseModelId": 411,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20008_nissan_r33.dff",
+        "sha256": "1fb8bd689236b1bfbc349046805a20d5b43133785aa6ef4c5be4123b8ab414b4",
+        "size": 12769536
+      },
+      "txd": {
+        "path": "vehicles/20008_nissan_r33.txd",
+        "sha256": "74756045b2be20ec7a4d3656a8b368e302fa7a8a9144a91c306e8ed9f612cabf",
+        "size": 12890987
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20009,
+      "baseModelId": 506,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20009_nsx_1991.dff",
+        "sha256": "1aa6310f16965ce0fde49bfc8bf6ed57873e05283ec2aa5e193a0b8bd430a2b4",
+        "size": 10639360
+      },
+      "txd": {
+        "path": "vehicles/20009_nsx_1991.txd",
+        "sha256": "169ad0683f46b8ab139fff8ca04a79afed3ae13a8feec2002b6c15c2c86684c1",
+        "size": 18571488
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20010,
+      "baseModelId": 602,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20010_rx7.dff",
+        "sha256": "7942d8324d823edb8c7fa70cb425d87eb3c7478a257b149d57c72805354595c1",
+        "size": 8583168
+      },
+      "txd": {
+        "path": "vehicles/20010_rx7.txd",
+        "sha256": "b9af1424e7d335c73b64b91428c2c80f80e8865edd96946ed1e658bfa7115b01",
+        "size": 16435120
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20011,
+      "baseModelId": 550,
+      "vehicleClass": "automobile",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20011_subaru.dff",
+        "sha256": "20046fbdbf22e349c404388809ee41c6d62b98ff57a90ae36315b3cb3d2b7720",
+        "size": 2054144
+      },
+      "txd": {
+        "path": "vehicles/20011_subaru.txd",
+        "sha256": "86a9ac65205187bbe6f12bbbba0daeced4aa3c241f5f8e1c8fcf6c7b483a1426",
+        "size": 856064
+      },
+      "handling": null,
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20012,
+      "baseModelId": 462,
+      "vehicleClass": "bike",
+      "preloadPriority": false,
+      "dff": {
+        "path": "vehicles/20012_vespa_kuyfood.dff",
+        "sha256": "338cf4303f07874ee5224e5d3f61bbb56cd66f0e57e20e1c07ef729b7f676129",
+        "size": 4835234
+      },
+      "txd": {
+        "path": "vehicles/20012_vespa_kuyfood.txd",
+        "sha256": "284a4bf97e7a2b60b2e9364e626834a7b505deacc6c354416f81bccd319f9601",
+        "size": 3671336
+      },
+      "handling": null,
+      "bikeHandling": null
     }
   ]
 }

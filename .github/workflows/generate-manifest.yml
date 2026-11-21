@@ -26,7 +26,7 @@ jobs:
 
       - name: Commit updated vehicles.json
         run: |
-          if git diff --quiet vehicles.json; then
+          if [[ -z "$(git status --porcelain vehicles.json)" ]]; then
             echo "vehicles.json sudah up-to-date."
             exit 0
           fi

@@ -1,30 +1,30 @@
 {
-    "version":  1,
-    "cdnBaseUrl":  "https://raw.githubusercontent.com/Aleewonka/kuyland-custom-vehicles-assets/main/",
-    "models":  [
-                   {
-                       "virtualModelId":  20001,
-                       "baseModelId":  560,
-                       "vehicleClass":  "automobile",
-                       "preloadPriority":  true,
-                       "dff":  {
-                                   "path":  "vehicles/20001_sultan.dff",
-                                   "sha256":  "db61e931af91aed2e09ac829bafbd3817f44ee266e371241d3c2b19e1ca87158",
-                                   "size":  12802486
-                               },
-                       "txd":  {
-                                   "path":  "vehicles/20001_sultan.txd",
-                                   "sha256":  "4058b00a8e558d12a700274f10bc6d090acfbe3e5b54861c2acb228eadc751a7",
-                                   "size":  5699501
-                               },
-                       "handling":  {
-                                        "mass":  1450.0,
-                                        "maxVelocity":  225.0,
-                                        "engineAcceleration":  13.5,
-                                        "tractionMultiplier":  0.92,
-                                        "brakeDeceleration":  9.8
-                                    },
-                       "bikeHandling":  null
-                   }
-               ]
+  "version": 1,
+  "cdnBaseUrl": "https://raw.githubusercontent.com/Aleewonka/kuyland-custom-vehicles-assets/main/",
+  "models": [
+    {
+      "virtualModelId": 20001,
+      "baseModelId": 560,
+      "vehicleClass": "automobile",
+      "preloadPriority": true,
+      "dff": {
+        "path": "vehicles/20001_sultan.dff",
+        "sha256": "db61e931af91aed2e09ac829bafbd3817f44ee266e371241d3c2b19e1ca87158",
+        "size": 12802486
+      },
+      "txd": {
+        "path": "vehicles/20001_sultan.txd",
+        "sha256": "4058b00a8e558d12a700274f10bc6d090acfbe3e5b54861c2acb228eadc751a7",
+        "size": 5699501
+      },
+      "handling": {
+        "mass": 1450.0,
+        "maxVelocity": 225.0,
+        "engineAcceleration": 13.5,
+        "tractionMultiplier": 0.92,
+        "brakeDeceleration": 9.8
+      },
+      "bikeHandling": null
+    }
+  ]
 }

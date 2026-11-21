@@ -1,0 +1,37 @@
+name: Generate vehicles.json Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "catalog.json"
+      - "vehicles/**"
+      - "scripts/build_manifest.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Build & Commit vehicles.json
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate and validate vehicles.json
+        run: python3 scripts/build_manifest.py
+
+      - name: Commit updated vehicles.json
+        run: |
+          if git diff --quiet vehicles.json; then
+            echo "vehicles.json sudah up-to-date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vehicles.json
+          git commit -m "chore(manifest): auto-update vehicles.json SHA-256 and sizes [skip ci]"
+          git push origin main

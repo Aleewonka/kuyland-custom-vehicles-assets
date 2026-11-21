@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "cdnBaseUrl": "https://raw.githubusercontent.com/Aleewonka/kuyland-custom-vehicles-assets/main/",
+  "models": [
+    {
+      "virtualModelId": 20001,
+      "baseModelId": 560,
+      "vehicleClass": "automobile",
+      "preloadPriority": true,
+      "dffPath": "vehicles/20001_test_car.dff",
+      "txdPath": "vehicles/20001_test_car.txd",
+      "handling": {
+        "mass": 1450.0,
+        "maxVelocity": 225.0,
+        "engineAcceleration": 13.5,
+        "tractionMultiplier": 0.92,
+        "brakeDeceleration": 9.8
+      },
+      "bikeHandling": null
+    },
+    {
+      "virtualModelId": 20002,
+      "baseModelId": 522,
+      "vehicleClass": "bike",
+      "preloadPriority": false,
+      "dffPath": "vehicles/20002_test_bike.dff",
+      "txdPath": "vehicles/20002_test_bike.txd",
+      "handling": {
+        "mass": 420.0,
+        "maxVelocity": 240.0,
+        "engineAcceleration": 16.0
+      },
+      "bikeHandling": {
+        "maxLean": 42.0,
+        "wheelieAng": 32.0
+      }
+    }
+  ]
+}

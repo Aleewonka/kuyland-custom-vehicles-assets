@@ -43,7 +43,25 @@
         "sha256": "17700ec2b99753ebb6e5d7371d6c4aee64969f94bef3bdd54494af5db653fae0",
         "size": 3062456
       },
-      "handling": null,
+      "handling": {
+        "mass": 1460.0,
+        "turnMass": 3500.0,
+        "dragMult": 1.8,
+        "centreOfMassZ": -0.18,
+        "numberOfGears": 5,
+        "maxVelocity": 255.0,
+        "engineAcceleration": 15.5,
+        "engineInertia": 8.0,
+        "driveType": "R",
+        "engineType": "P",
+        "tractionMultiplier": 0.96,
+        "tractionLoss": 0.84,
+        "tractionBias": 0.48,
+        "brakeDeceleration": 10.8,
+        "brakeBias": 0.53,
+        "abs": true,
+        "steeringLock": 36.0
+      },
       "bikeHandling": null
     },
     {
@@ -62,7 +80,25 @@
         "sha256": "f1647f71630d435c56b932f90f8f00693fd942cdda290d597a62b0d6c6b4b4df",
         "size": 429608
       },
-      "handling": null,
+      "handling": {
+        "mass": 1300.0,
+        "turnMass": 3100.0,
+        "dragMult": 1.85,
+        "centreOfMassZ": -0.16,
+        "numberOfGears": 5,
+        "maxVelocity": 245.0,
+        "engineAcceleration": 14.5,
+        "engineInertia": 8.5,
+        "driveType": "R",
+        "engineType": "P",
+        "tractionMultiplier": 0.98,
+        "tractionLoss": 0.86,
+        "tractionBias": 0.49,
+        "brakeDeceleration": 10.5,
+        "brakeBias": 0.53,
+        "abs": true,
+        "steeringLock": 35.0
+      },
       "bikeHandling": null
     },
     {
@@ -81,7 +117,25 @@
         "sha256": "26b99a3eca4f5f8805d3eb00cace66170cbf4370b31d7b138c9ee2556df52166",
         "size": 4119848
       },
-      "handling": null,
+      "handling": {
+        "mass": 1410.0,
+        "turnMass": 3400.0,
+        "dragMult": 1.5,
+        "centreOfMassZ": -0.22,
+        "numberOfGears": 5,
+        "maxVelocity": 315.0,
+        "engineAcceleration": 20.5,
+        "engineInertia": 6.5,
+        "driveType": "4",
+        "engineType": "P",
+        "tractionMultiplier": 1.15,
+        "tractionLoss": 0.9,
+        "tractionBias": 0.5,
+        "brakeDeceleration": 13.0,
+        "brakeBias": 0.54,
+        "abs": true,
+        "steeringLock": 33.0
+      },
       "bikeHandling": null
     },
     {
@@ -157,7 +211,25 @@
         "sha256": "74756045b2be20ec7a4d3656a8b368e302fa7a8a9144a91c306e8ed9f612cabf",
         "size": 12890987
       },
-      "handling": null,
+      "handling": {
+        "mass": 1530.0,
+        "turnMass": 3800.0,
+        "dragMult": 1.65,
+        "centreOfMassZ": -0.2,
+        "numberOfGears": 5,
+        "maxVelocity": 288.0,
+        "engineAcceleration": 18.5,
+        "engineInertia": 7.2,
+        "driveType": "4",
+        "engineType": "P",
+        "tractionMultiplier": 1.12,
+        "tractionLoss": 0.88,
+        "tractionBias": 0.51,
+        "brakeDeceleration": 12.0,
+        "brakeBias": 0.54,
+        "abs": true,
+        "steeringLock": 34.0
+      },
       "bikeHandling": null
     },
     {
@@ -176,7 +248,25 @@
         "sha256": "169ad0683f46b8ab139fff8ca04a79afed3ae13a8feec2002b6c15c2c86684c1",
         "size": 18571488
       },
-      "handling": null,
+      "handling": {
+        "mass": 1350.0,
+        "turnMass": 3200.0,
+        "dragMult": 1.6,
+        "centreOfMassZ": -0.22,
+        "numberOfGears": 5,
+        "maxVelocity": 278.0,
+        "engineAcceleration": 17.5,
+        "engineInertia": 7.0,
+        "driveType": "R",
+        "engineType": "P",
+        "tractionMultiplier": 1.09,
+        "tractionLoss": 0.89,
+        "tractionBias": 0.5,
+        "brakeDeceleration": 12.0,
+        "brakeBias": 0.53,
+        "abs": true,
+        "steeringLock": 35.0
+      },
       "bikeHandling": null
     },
     {
@@ -195,7 +285,25 @@
         "sha256": "b9af1424e7d335c73b64b91428c2c80f80e8865edd96946ed1e658bfa7115b01",
         "size": 16435120
       },
-      "handling": null,
+      "handling": {
+        "mass": 1260.0,
+        "turnMass": 2950.0,
+        "dragMult": 1.65,
+        "centreOfMassZ": -0.2,
+        "numberOfGears": 5,
+        "maxVelocity": 270.0,
+        "engineAcceleration": 17.0,
+        "engineInertia": 6.5,
+        "driveType": "R",
+        "engineType": "P",
+        "tractionMultiplier": 1.01,
+        "tractionLoss": 0.83,
+        "tractionBias": 0.48,
+        "brakeDeceleration": 11.6,
+        "brakeBias": 0.53,
+        "abs": true,
+        "steeringLock": 38.0
+      },
       "bikeHandling": null
     },
     {
@@ -214,7 +322,25 @@
         "sha256": "86a9ac65205187bbe6f12bbbba0daeced4aa3c241f5f8e1c8fcf6c7b483a1426",
         "size": 856064
       },
-      "handling": null,
+      "handling": {
+        "mass": 1440.0,
+        "turnMass": 3500.0,
+        "dragMult": 1.85,
+        "centreOfMassZ": -0.18,
+        "numberOfGears": 5,
+        "maxVelocity": 260.0,
+        "engineAcceleration": 16.5,
+        "engineInertia": 7.5,
+        "driveType": "4",
+        "engineType": "P",
+        "tractionMultiplier": 1.12,
+        "tractionLoss": 0.92,
+        "tractionBias": 0.52,
+        "brakeDeceleration": 11.5,
+        "brakeBias": 0.54,
+        "abs": true,
+        "steeringLock": 36.0
+      },
       "bikeHandling": null
     },
     {

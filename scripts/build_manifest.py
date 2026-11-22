@@ -12,6 +12,7 @@ MANIFEST_PATH = ROOT / "vehicles.json"
 
 BMX_MODELS = {481, 509, 510}
 BIKE_MODELS = {448, 461, 462, 463, 468, 521, 522, 523, 581, 586}
+VALID_STEERING_SIDES = {"auto", "lhd", "rhd"}
 UNSUPPORTED_MODELS = {
     417, 425, 430, 435, 441, 446, 447, 449, 450, 452, 453, 454, 460, 464,
     465, 469, 471, 472, 473, 476, 484, 487, 488, 493, 497, 501, 511, 512,
@@ -79,6 +80,20 @@ def main() -> int:
         if vclass == "automobile" and item.get("bikeHandling") is not None:
             raise ValueError(f"models[{idx}] (vid={vid}): bikeHandling tidak boleh dipasang pada automobile")
 
+        raw_steering = item.get("steeringSide")
+        if raw_steering is None or str(raw_steering).strip() == "":
+            steering_side = "auto"
+        else:
+            steering_side = str(raw_steering).strip().lower()
+        if steering_side not in VALID_STEERING_SIDES:
+            raise ValueError(
+                f"models[{idx}] (vid={vid}): steeringSide={steering_side!r} tidak valid (gunakan 'auto', 'lhd', atau 'rhd')"
+            )
+        if vclass != "automobile" and steering_side == "rhd":
+            raise ValueError(
+                f"models[{idx}] (vid={vid}): steeringSide='rhd' hanya berlaku untuk vehicleClass='automobile'"
+            )
+
         dff_path = str(item["dffPath"]).replace("\\", "/")
         txd_path = str(item["txdPath"]).replace("\\", "/")
         dff_sha, dff_size = sha256_and_size(dff_path)
@@ -88,6 +103,7 @@ def main() -> int:
             "virtualModelId": vid,
             "baseModelId": base_id,
             "vehicleClass": vclass,
+            "steeringSide": steering_side,
             "preloadPriority": bool(item.get("preloadPriority", False)),
             "dff": {
                 "path": dff_path,
